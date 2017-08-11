@@ -8,7 +8,7 @@ app.set("view engine", "ejs");
 var forecastIOKey = "XXX"; // FIXME : replace with your API key gained from forecast.io
 
 function requestTemperature() {
-  var url = "https://api.forecast.io/forecast/" + forecastIOKey + "/-41.2865,174.7762";
+  var url = "https://api.forecast.io/forecast/" + "9f5e8f3ebe6d8a43bcd39c06f8914311" + "/-41.2865,174.7762";
 
   return request({url: url, json: true}).then(data => {
     var temperature = data.currently.temperature;
