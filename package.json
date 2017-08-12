@@ -1,18 +1,17 @@
 {
-  "name": "hackfest_start",
-  "version": "1.0.0",
-  "repository": "https://github.com/mogest/hackfest_start",
-  "description": "A starting point to build hackfest apps using Express",
-  "main": "app.js",
+  "name": "hackfest-start",
+  "version": "0.0.0",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "Roger Nesbitt <roger@seriousorange.com>",
-  "license": "MIT",
   "dependencies": {
-    "ejs": "^2.5.1",
-    "express": "^4.14.0",
-    "request": "^2.74.0",
-    "request-promise-native": "^1.0.3"
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
   }
 }
